@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+}
+.header {
+    background-color: var(--theme);
+    color: white;
+    font-family:var(--font);
+    padding:20px;
+    position:relative;
+}
+.header h1 {
+    display:inline-block;
+    font-size: 48px;
+}
+.header nav {
+    float:right
+}
+.header nav ul {
+    list-style: none;
+    padding: 20px;
+}
+.header nav ul li {
+    display:inline-block;
+    font-size: 25px;
+    color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a:visited {
+    color:rgb(209, 209, 209)
+}
+h2{
+color: var(--theme);
+font-size: 40px;
+padding-right: 30px;
+width: 50px;
+font-family: var(--font);
+
+}
+.card {
+    flex-direction: row;
+    border-right: 5px;
+    display:flex;
+    padding:30px 30px 30px 30px;
+    position:relative;
+    justify-content: space-between;
+    color: var(--theme)
+}
+:root {
+    --theme: rgb(75, 74, 74);
+    --font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --background-color:  rgb(144, 144, 144);
+    ;
+}
+#contact-me h2 {
+    padding-right: 400px;
+}
+#contact-me ul {
+    list-style: none;
+}
+#contact-me ul li {
+    display:inline-block;
+    padding-right: 250px;
+    padding-top: 45px;
+    text-decoration: underline var(--theme);
+    font-size: 150%;
+}
+p {
+       width:350px;
+       position:absolute;
+       right:620px;
+       font-family: var(--font);
+
+}
+main {
+    padding-left: 100px;
+}
+#profile {
+    position:absolute;
+    right: 350px;
+}
+img{
+    border: 3px solid var(--theme);
+}
+span{
+    width:1080px;
+    justify-content:space-evenly;
+    display: flex;
+}
+#First {
+    background-color: var(--background-color);
+    position: absolute;
+    font-family: var(--font);
+    right: 616px;
+    top: 245px;
+    width: 90px;
+    border: 3px solid var(--theme);
+    color: var(--theme);
+    justify-content: center;
+    padding: 5px;
+}
+#second {
+    background-color: var(--background-color);
+    position: absolute;
+    font-family: var(--font);
+    right: 174px;
+    top: 176px;
+    width: 90px;
+    border: 3px solid var(--theme);
+    color: var(--theme);
+    justify-content: center;
+    padding: 5px;
+}
+#work-section img:hover{
+    opacity: .5;
+    background-color: black;
+}
+
+@media screen and (max-width:1300px){
+    #First {
+        display:none;
+    }
+    #second {
+        display:none;
+    }
+    
+}
+@media screen and (max-width:867px) {
+    nav {
+        display:none;
+        
+    }
+    
+}
