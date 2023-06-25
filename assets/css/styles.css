@@ -135,3 +135,19 @@ span{
     }
     
 }
+@media screen and (max-width:1301px){
+    .card {
+        width: 1000px;
+        flex-wrap: wrap;
+    }
+    p {
+        position: absolute;
+        left: 150px
+    }
+}
+@media screen and (max-width:930) {
+    section {
+        flex-wrap: wrap;
+        position: relative;
+    }
+}
